@@ -31,7 +31,7 @@ The application consists of 5 processes:
     - Innistrad (ISD)
 2. The owner doesn’t want every metadata that API has. He’s only interested in the following data:
     1. Name
-    2. Language
+    2. Language (decoupled in locales. E.g: if the language is “en”, the language we need is en_GB, en_,…)
     3. Release date
     4. Images (as URLs)
     5. Collection of that card (which set this card is part of)
